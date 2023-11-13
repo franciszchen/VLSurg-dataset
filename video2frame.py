@@ -103,14 +103,8 @@ if __name__ == "__main__":
         
     source_path = "../current_data"
     save_path = "../image_3fps"  # save path
-
-    case_folder_list = ['68-2022-0714-TG', '69-2022-0222-DG',
-              '7-2022-0409-DG', '70-2022-0329-DG', '71-2022-0125-DG', '72-2022-0216-DG', '73-2022-0217-DG',
-                '74-2022-0324-TG', '75-2022-0721-TG', '76-2022-0303-TG', 
-                '8-2022-0409-DG',  '84-2022-0728-DG', 
-                '85-2021-0715-DG', '86-2021-0706-DG', '87-2021-0706-DG', '88-2021-0706-DG', '89-2021-0729-DG', '9-2022-0428-DG', '90-2021-0601-DG',
-                  '91-2021-0602-DG', '92-2021-0607-DG', '93-2021-0609-DG', '94-2021-0624-DG', '95-2021-0706-DG', '96-2021-0706-DG', '97-2021-0706-DG',
-                    '98-2021-0624-DG', '99-2021-0817-DG']
+    img_folder_path = "folder_path"
+    case_folder_list = os.dirlist(img_folder_path)
     current_time = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
     log_file = current_time+"_log.txt"
     
