@@ -33,6 +33,19 @@ scienceDB dataset link
   - /VLSurg_3
     - VLSurg_3.zip
   - ......
+ 
+## Frame name explanation
+
+frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg
+frame_name = {
+"ID":patient_id,
+"TG/DG":TG or DG,
+"Vid":video_id,
+"Sec":current second in video,
+"Frame": frame_index with 3fps
+}
+
+
 ## Metadata
 												
 
