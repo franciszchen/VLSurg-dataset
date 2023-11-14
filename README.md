@@ -8,8 +8,9 @@ Abstract of the paper
 
 ## Usage
 
-<!-- Repo Structure
-```bash
+
+
+## Structure of the dataset
 src/:
     |--VLSURG/:
     |   |--VLSurg_Annotation/ Annotations of each surgical video
@@ -24,4 +25,3 @@ src/:
     |   |--VLSurg_3/
     |   |   |--VLSurg_3.zip
     ......
-``` -->
