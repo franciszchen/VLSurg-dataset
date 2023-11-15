@@ -21,23 +21,23 @@ scienceDB dataset link
 
 ## Structure of the dataset
 
-- /VLSurg
-  - /VLSurg_Annotation
-    - VLSurg_1.csv
-    - VLSurg_1.csv
-    - ...
-  - /train 
-    - /VLSurg_2
-      - VLSurg_2.zip
-    - /VLSurg_3
-      - VLSurg_3.zip
-     - ......
- - /test
-   - /VLSurg_1
-     - VLSurg_1.zip
-   - /VLSurg_4
-     - VLSurg_4.zip
-     - ......
+/VLSurg  
+-- /VLSurg_Annotation  
+---- VLSurg_1.csv    
+---- VLSurg_1.csv  
+---- ...   
+-- /train  
+---- /VLSurg_2  
+------ VLSurg_2.zip  
+---- /VLSurg_3  
+------ VLSurg_3.zip  
+------ ...   
+-- /test    
+---- /VLSurg_1    
+------ VLSurg_1.zip  
+---- /VLSurg_4   
+------ VLSurg_4.zip   
+------ ......   
 ## Frame name explanation
 
 frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg  
