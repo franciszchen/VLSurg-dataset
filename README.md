@@ -1,6 +1,6 @@
 # VLSurg DATASET
 
-The official codes for [**VLSurg: A Versatile Laparoscopic Surgical Video1 Dataset Bridges General AI and Modern Operating2Room**](linktopaper)
+The official codes for [**VLSurg: A Versatile Laparoscopic Surgical Video Dataset Bridges General AI and Modern Operating Room**](linktopaper)
 
 ## Introduction 
 
@@ -26,23 +26,27 @@ scienceDB dataset link
     - VLSurg_1.csv
     - VLSurg_1.csv
     - ...
-  - /VLSurg_1
-    - VLSurg_1.zip
-  - /VLSurg_2
-    - VLSurg_2.zip
-  - /VLSurg_3
-    - VLSurg_3.zip
-  - ......
- 
+  - /train 
+    - /VLSurg_2
+      - VLSurg_2.zip
+    - /VLSurg_3
+      - VLSurg_3.zip
+     - ......
+ - /test
+   - /VLSurg_1
+     - VLSurg_1.zip
+   - /VLSurg_4
+     - VLSurg_4.zip
+     - ......
 ## Frame name explanation
 
-frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg
-frame_name = {
-"ID":patient_id,
-"TG/DG":TG or DG,
-"Vid":video_id,
-"Sec":current second in video,
-"Frame": frame_index with 3fps
+frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg  
+frame_name = {  
+"ID":patient_id,   
+"TG/DG":TG or DG,  
+"Vid":video_id,   
+"Sec":current second in video,  
+"Frame": frame_index with 3fps  
 }
 
 
@@ -51,8 +55,8 @@ frame_name = {
 
 |column|Explanation|
 |--|:--:|
-folder name	| ...
-filename|...
+folder name	| video's folder name
+filename|video's file name
 start_sec|start second of the sub stage
 end_sec|end second of the sub stage
 label|label of the stage
@@ -64,9 +68,9 @@ Bimanual dexterity|
 Efficiency|
 Tissue handling|
 Autonomy|
-description|
+description| Description of the sub_stage
 
 ## DataLoader Example
 
 
-## 
+## Link to Phase Detection Methods
