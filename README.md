@@ -61,13 +61,13 @@ start_sec|start second of the sub stage
 end_sec|end second of the sub stage
 label|label of the stage
 sub_stage|label of the substage
-Perfect|
-ImPerfect|
-Depth perception|
-Bimanual dexterity|
-Efficiency|
-Tissue handling|
-Autonomy|
+Perfect|Since the surgeon can accurately direct instruments in the correct plane to the target, expertly use both hands to provide optimal exposure, organize movements as planned, handle tissues well, and able to complete task independently
+ImPerfect|Since the surgeon missed some of the targets and caused occasional unnecessary bleeding
+Depth perception|Global operation assessment of laparoscopic skills (GOALS)
+Bimanual dexterity|Global operation assessment of laparoscopic skills (GOALS)
+Efficiency|Global operation assessment of laparoscopic skills (GOALS)
+Tissue handling|Global operation assessment of laparoscopic skills (GOALS)
+Autonomy|Global operation assessment of laparoscopic skills (GOALS)
 description| Description of the sub_stage
 
 ## DataLoader Example
