@@ -47,7 +47,7 @@ VLSurg
 ## Frame name explanation
 ```
 frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg  
-frame_name =
+frame_name =   
 {  
 "ID":patient_id,   
 "TG/DG":TG or DG,  
@@ -81,3 +81,10 @@ description| Description of the sub_stage
 
 
 ## Link to Phase Detection Methods
+
+## Cite
+```
+   
+citation   
+   
+```
