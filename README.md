@@ -14,10 +14,12 @@ the advanced techniques in general AI and the requirements of modern OR, we deve
 Surgical video dataset, VLSurg, with surgical videos from 60 patients. This dataset contains comprehensive annotations for
 surgical phases, surgical skill assessment, and surgical descriptions, offering opportunities for developing versatile and general
 AI algorithms that can support surgical decision-making and patient care.
+![avatar](/imgs/img_1.png)
+
 
 ## Link to DATASET
 
-scienceDB dataset link
+VLSurg Dataset [Link](https://www.scidb.cn/en/anonymous/TkJiMml5) on Science DB
 
 ## Structure of the dataset
 ```
@@ -41,41 +43,47 @@ VLSurg
 |    └───VLSurg_4
 |         └───VLSurg_4.zip
 |    └───...
+
+CSV files are annotations for the corresponding VLSurg patient videos.
+zip files are frames/images for each VLSurg patient video.
 ```
 
 
 ## Frame name explanation
 ```
+Explanation for the frame name in the zip files:  
+
 frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg  
 frame_name =   
 {  
-"ID":patient_id,   
-"TG/DG":TG or DG,  
+"ID": patient_id,   
+"TG/DG": TG or DG,  
 "Vid":video_id,   
-"Sec":current second in video,  
+"Sec": current second in video,  
 "Frame": frame_index with 3fps  
 }
 ```
 
 ## Metadata
 												
+#### Explanation for the annotation CSV file
 
-|column|Explanation|
+|column_name|Explanation|
 |--|:--:|
 folder name	| video's folder name
 filename|video's file name
-start_sec|start second of the sub stage
-end_sec|end second of the sub stage
+start_sec|start second of the sub-stage
+end_sec|end second of the sub-stage
 label|label of the stage
 sub_stage|label of the substage
-Perfect|Since the surgeon can accurately direct instruments in the correct plane to the target, expertly use both hands to provide optimal exposure, organize movements as planned, handle tissues well, and able to complete task independently
-ImPerfect|Since the surgeon missed some of the targets and caused occasional unnecessary bleeding
+Perfect|The surgeon can accurately direct instruments in the correct plane to the target, expertly use both hands to provide optimal exposure, organize movements as planned, handle tissues well, and able to complete task independently
+ImPerfect|The surgeon missed some of the targets and caused occasional unnecessary bleeding
 Depth perception|Global operation assessment of laparoscopic skills (GOALS)
 Bimanual dexterity|Global operation assessment of laparoscopic skills (GOALS)
 Efficiency|Global operation assessment of laparoscopic skills (GOALS)
 Tissue handling|Global operation assessment of laparoscopic skills (GOALS)
 Autonomy|Global operation assessment of laparoscopic skills (GOALS)
-description| Description of the sub_stage
+description| Nature Language Description of the sub_stage
 
 ## DataLoader Example
 
