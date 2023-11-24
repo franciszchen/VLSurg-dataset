@@ -53,7 +53,7 @@ zip files are frames/images for each VLSurg patient video.
 ```
 Explanation for the frame name in the zip files:  
 
-frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(1,2,3)}.jpg  
+frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(0,1,2)}.jpg  
 frame_name =   
 {  
 "ID": patient_id,   
@@ -86,9 +86,10 @@ Autonomy|Global operation assessment of laparoscopic skills (GOALS)
 description| Nature Language Description of the sub_stage
 
 ## DataLoader Example
-
+An example of PyTorch DataLoader
 
 ## Link to Phase Detection Methods
+
 
 ## Cite
 ```
