@@ -48,7 +48,10 @@ CSV files are annotations for the corresponding VLSurg patient videos.
 zip files are frames/images for each VLSurg patient video.
 ```
 
-
+```
+cd path/to/VLSurg_zip_file  
+unzip VLSurg_zip_file  
+```
 ## Frame name explanation
 ```
 Explanation for the frame name in the zip files:  
