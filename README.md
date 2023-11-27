@@ -58,9 +58,9 @@ frame_name =
 {  
 "ID": patient_id,   
 "TG/DG": TG or DG,  
-"Vid":video_id,   
+"Vid":video_id,   # The whole surgical video of the patient is divided into multiple index-ordered videos 
 "Sec": current second in video,  
-"Frame": frame_index with 3fps  
+"Frame": frame_index with 3fps  #0, 1 or 2 
 }
 ```
 
