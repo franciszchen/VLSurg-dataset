@@ -53,14 +53,14 @@ zip files are frames/images for each VLSurg patient video.
 ```
 Explanation for the frame name in the zip files:  
 
-frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame(0,1,2)}.jpg  
+frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame}.jpg  
 frame_name =   
 {  
 "ID": patient_id,   
 "TG/DG": TG or DG,  
 "Vid":video_id,   # The whole surgical video of the patient is divided into multiple index-ordered videos 
 "Sec": current second in video,  
-"Frame": frame_index with 3fps  #0, 1 or 2 
+"Frame": frame_index (default 3 fps)  #0, 1 or 2 
 }
 ```
 
