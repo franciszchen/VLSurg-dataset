@@ -54,7 +54,7 @@ zip files are frames/images for each VLSurg patient video.
 ```
 Explanation for the frame name in the zip files:  
 
-frame_name : {ID}-{DG/TG}-{Vid}-{Sec}-{Frame}.jpg  
+frame_name : VLSurg-{ID}-{DG/TG}-{Vid}-{Sec}-{Frame}.jpg  
 frame_name =   
 {  
 "ID": patient_id,   
@@ -94,7 +94,7 @@ cd path/to/VLSurg_zip_file
 unzip VLSurg_zip_file  
 ```
 ```
-dataloader code
+An example, see dataloader.py
 ```
 
 
