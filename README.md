@@ -37,19 +37,13 @@ VLSurg
 |    └───VLSurg_2.csv 
 │    └───...  
 │       
-|
-└───train
-│     └───VLSurg_2
-│          └───VLSurg_2.zip
-│     └───VLSurg_3
-│          └───VLSurg_3.zip
-|     └───...
-└───test
-|    └───VLSurg_1
-|         └───VLSurg_1.zip
-|    └───VLSurg_4
-|         └───VLSurg_4.zip
-|    └───...
+└───VLSurg_1
+      └───VLSurg_1.zip
+└───VLSurg_2
+      └───VLSurg_2.zip
+└───VLSurg_3
+      └───VLSurg_3.zip
+└───...
 
 CSV files are annotations for the corresponding VLSurg patient videos.
 zip files are frames/images for each VLSurg patient video.
