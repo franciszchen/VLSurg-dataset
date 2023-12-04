@@ -77,20 +77,20 @@ frame_name =
 
 |column_name|Explanation|
 |--|:--:|
-folder name	| video's folder name
-filename|video's file name
-start_sec|start second of the sub-stage
-end_sec|end second of the sub-stage
-label|label of the stage
-sub_stage|label of the substage
-Perfect|The surgeon can accurately direct instruments in the correct plane to the target, expertly use both hands to provide optimal exposure, organize movements as planned, handle tissues well, and able to complete task independently
-ImPerfect|The surgeon missed some of the targets and caused occasional unnecessary bleeding
-Depth perception|Global operation assessment of laparoscopic skills (GOALS)
-Bimanual dexterity|Global operation assessment of laparoscopic skills (GOALS)
-Efficiency|Global operation assessment of laparoscopic skills (GOALS)
-Tissue handling|Global operation assessment of laparoscopic skills (GOALS)
-Autonomy|Global operation assessment of laparoscopic skills (GOALS)
-description| Nature Language Description of the sub_stage
+folder name	| video's folder name (string)
+filename|video's file name (string)
+start_sec|start second of the sub-stage (integer)
+end_sec|end second of the sub-stage (integer)
+label|label of the stage (string)
+sub_stage|label of the substrate (string)
+Perfect|The surgeon can accurately direct instruments in the correct plane to the target, expertly use both hands to provide optimal exposure, organize movements as planned, handle tissues well, and able to complete task independently (boolean 0 or 1)
+ImPerfect|The surgeon missed some of the targets and caused occasional unnecessary bleeding (boolean 0 or 1)
+Depth perception|Global operation assessment of laparoscopic skills (GOALS) (integer score from 1 to 5)
+Bimanual dexterity|Global operation assessment of laparoscopic skills (GOALS) (integer score from 1 to 5)
+Efficiency|Global operation assessment of laparoscopic skills (GOALS) (integer score from 1 to 5)
+Tissue handling|Global operation assessment of laparoscopic skills (GOALS) (integer score from 1 to 5)
+Autonomy|Global operation assessment of laparoscopic skills (GOALS) (integer score from 1 to 5)
+description| Nature Language Description of the sub_stage (string)
 
 ## DataLoader Example
 An example of PyTorch DataLoader
