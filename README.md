@@ -22,6 +22,13 @@ AI algorithms that can support surgical decision-making and patient care.
 VLSurg Dataset [Link](https://www.scidb.cn/en/anonymous/TkJiMml5) on Science DB
 
 ## Structure of the dataset
+
+training and testing splitting:  
+
+training:[2,3,5,6,7,8,9,11,12,13,14,15,16,17,18,19,21,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,46,47,49,50,51,52,53,55,57,58,59,60] 
+
+testing:[1,4,10,20,22,40,45,48,54,56]
+
 ```
 VLSurg  
 
@@ -48,10 +55,7 @@ CSV files are annotations for the corresponding VLSurg patient videos.
 zip files are frames/images for each VLSurg patient video.
 ```
 
-```
-cd path/to/VLSurg_zip_file  
-unzip VLSurg_zip_file  
-```
+
 ## Frame name explanation
 ```
 Explanation for the frame name in the zip files:  
@@ -90,6 +94,16 @@ description| Nature Language Description of the sub_stage
 
 ## DataLoader Example
 An example of PyTorch DataLoader
+
+```
+cd path/to/VLSurg_zip_file  
+unzip VLSurg_zip_file  
+```
+```
+dataloader code
+```
+
+
 
 ## Link to Phase Detection Methods
 
