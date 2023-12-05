@@ -94,7 +94,7 @@ cd path/to/VLSurg_zip_file
 unzip VLSurg_zip_file  
 ```
 ```
-An example, see dataloader.py
+An simple example, see dataloader.py
 ```
 
 
