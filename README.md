@@ -93,9 +93,9 @@ An example of PyTorch DataLoader
 cd path/to/VLSurg_zip_file  
 unzip VLSurg_zip_file  
 ```
-```
-An simple example, see dataloader.py
-```
+
+A simple example, see [dataloader.py](./dataloader.py)
+
 
 
 
